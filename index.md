@@ -1,6 +1,6 @@
 ---
-  layout: page
-  title: MyKidPix
+layout: page
+title: MyKidPix
 ---
 
   MyKidPix is an Android app that automatically finds photos of your children
