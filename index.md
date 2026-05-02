@@ -1,8 +1,7 @@
-
-  ---
+---
   layout: page
   title: MyKidPix
-  ---
+---
 
   MyKidPix is an Android app that automatically finds photos of your children
   in your WhatsApp media folder and backs them up to your Google Photos account.
