@@ -71,16 +71,35 @@ We do not sell, rent, or share your personal data with any third party, except:
 
 ---
 
-## 6. Data Retention
+## 6. Data Deletion and Account Deletion
 
-| Data | Retention period |
-|------|-----------------|
-| Face embeddings and child profiles | Until you delete the child profile from the app, or uninstall the app |
-| Processed photo records (file paths, processing state) | Until you clear the review queue or uninstall the app |
-| Google OAuth tokens | Until you sign out from Settings, or uninstall the app |
-| Photos in Google Photos | Governed by your Google account settings — MyKidPix does not delete photos from Google Photos |
+### How to delete your account / disconnect Google
 
-Uninstalling the app removes all locally stored data (embeddings, child profiles, processing records, and tokens).
+MyKidPix authenticates via Google OAuth — your "account" in the app is your connected Google identity. To disconnect it:
+
+1. Open MyKidPix → **Settings**
+2. Tap **Sign out**
+
+This removes all stored OAuth tokens from your device. MyKidPix will no longer have access to your Google Photos account. Photos already uploaded to Google Photos remain in your Google account and must be managed via the Google Photos app — MyKidPix does not delete them.
+
+### How to delete all local data
+
+| What to delete | How |
+|---|---|
+| A child's face data and profile | Kids tab → long-press the child → Delete |
+| All processed photo records | Settings → Clear review queue |
+| Everything (all embeddings, profiles, records, and tokens) | Uninstall the app |
+
+Because MyKidPix does not operate any external servers, no user data is retained by the developer after uninstallation.
+
+### Data retention periods
+
+| Data | Retained until |
+|------|----------------|
+| Face embeddings and child profiles | You delete the child profile, or uninstall the app |
+| Processed photo records (file paths, processing state) | You clear the review queue, or uninstall the app |
+| Google OAuth tokens | You sign out from Settings, or uninstall the app |
+| Photos in Google Photos | Governed by your Google account settings — MyKidPix does not delete them |
 
 ---
 
