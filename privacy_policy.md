@@ -8,7 +8,7 @@ title: Privacy Policy — MyKidPix
 **App name:** MyKidPix  
 **Developer:** Barbarosa-Developer  
 **Contact:** support-mykidpix@googlegroups.com  
-**Last updated:** April 28, 2026
+**Last updated:** June 13, 2026
 
 ---
 
@@ -38,6 +38,7 @@ Face data is processed entirely on your device using a local AI model. It is nev
 |------|-----------|---------|-----------|
 | **Photo files** (original image bytes from WhatsApp) | Google Photos (your own account) | Backup to your personal Google Photos album | Only when you connect Google Photos and approve an upload |
 | **Google OAuth tokens** | Google (oauth2.googleapis.com) | Authenticating your Google account | Only when you sign in with Google |
+| **Google account email address** | Stored on your device only | Displaying which Google account is connected in Settings | Only when you sign in with Google |
 
 No personal data, biometric data, or AI-generated data is ever sent off your device — only the raw photo files you choose to back up.
 
